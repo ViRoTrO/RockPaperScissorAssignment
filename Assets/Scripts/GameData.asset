@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c39076fd381a0124d8b083afaf181172, type: 3}
+  m_Name: GameData
+  m_EditorClassIdentifier: 
+  HandRules:
+  - Id: 2
+    WinsOver:
+    - LostHand: 1
+      WinnerText: Scissor cut the Papper !!
+    - LostHand: 4
+      WinnerText: Scissor decapitates Lizard !!
+  - Id: 4
+    WinsOver:
+    - LostHand: 3
+      WinnerText: Lizard poisoned the Spock !!
+    - LostHand: 1
+      WinnerText: Lizard ate the Paper !!
+  - Id: 1
+    WinsOver:
+    - LostHand: 0
+      WinnerText: Papper Covered the Rock !!
+    - LostHand: 3
+      WinnerText: Paper disproves the Spock !!
+  - Id: 3
+    WinsOver:
+    - LostHand: 2
+      WinnerText: Spock smashed the Scissor !!
+    - LostHand: 0
+      WinnerText: Spock vaporized the Rock !!
+  - Id: 0
+    WinsOver:
+    - LostHand: 2
+      WinnerText: Rock Crushed the Scissors !!
+    - LostHand: 4
+      WinnerText: Rock Crushed the Lizard !!
+  HandInfo:
+  - Id: 0
+    NameText: Rock
+    Sprite: {fileID: 21300000, guid: b90a8a690d207ac4a89fda6ea851ab05, type: 3}
+  - Id: 1
+    NameText: Paper
+    Sprite: {fileID: 21300000, guid: 79964b7d080d6c6488f163b4a1665a8d, type: 3}
+  - Id: 2
+    NameText: Scissor
+    Sprite: {fileID: 21300000, guid: 1ee66386e08ecc547828a7a2be807d05, type: 3}
+  - Id: 3
+    NameText: Spock
+    Sprite: {fileID: 21300000, guid: 9cdfb02ee2f180646bdc1e1a6b0bb9f2, type: 3}
+  - Id: 4
+    NameText: Lizard
+    Sprite: {fileID: 21300000, guid: 114b240c332d43a41acaebf595869ec4, type: 3}
+  startTime: 6
+  streakTimeDecrement: 1
+  minimumTime: 1
+  scoreMultiplier: 10
+  winnerText: Well Played !!<br>Winning streak $<br>Get ready for next the one..
+  looserText: Oops !!<br>Winning streak $<br>Better luck next time.
+  replaceWithScore: $
