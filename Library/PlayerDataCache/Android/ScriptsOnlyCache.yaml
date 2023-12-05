@@ -114,25 +114,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 17862}
     - Class: 114
-      Script: {instanceID: 19718}
+      Script: {instanceID: 17890}
     - Class: 114
-      Script: {instanceID: 19752}
+      Script: {instanceID: 19722}
     - Class: 114
-      Script: {instanceID: 19916}
+      Script: {instanceID: 19756}
     - Class: 114
-      Script: {instanceID: 19994}
+      Script: {instanceID: 19920}
     - Class: 114
-      Script: {instanceID: 20064}
+      Script: {instanceID: 19998}
     - Class: 114
-      Script: {instanceID: 20602}
+      Script: {instanceID: 20068}
     - Class: 114
-      Script: {instanceID: 20750}
+      Script: {instanceID: 20608}
     - Class: 114
-      Script: {instanceID: 21062}
+      Script: {instanceID: 20756}
     - Class: 114
-      Script: {instanceID: 25016}
+      Script: {instanceID: 21068}
     - Class: 114
-      Script: {instanceID: 35570}
+      Script: {instanceID: 22604}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -183,19 +183,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 17862}
     - Class: 114
-      Script: {instanceID: 17950}
+      Script: {instanceID: 17952}
     - Class: 114
-      Script: {instanceID: 19126}
+      Script: {instanceID: 19130}
     - Class: 114
-      Script: {instanceID: 19374}
+      Script: {instanceID: 19378}
     - Class: 114
-      Script: {instanceID: 20064}
+      Script: {instanceID: 20068}
     - Class: 114
-      Script: {instanceID: 20602}
+      Script: {instanceID: 20608}
     - Class: 114
-      Script: {instanceID: 20750}
+      Script: {instanceID: 20756}
     - Class: 114
-      Script: {instanceID: 21062}
+      Script: {instanceID: 21068}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -381,6 +381,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 27b5b0cc4c95d77cfe69209dcf564a96
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GamePlayManager
   - hash:
       serializedVersion: 2
       Hash: 34fa63a30926bcf55d7323dae76be890
@@ -1025,6 +1031,12 @@ ScriptsOnlyBuild:
     className: TMP_ScrollbarEventHandler
   - hash:
       serializedVersion: 2
+      Hash: 67e9ef19f49ad2c53a6337e43359d176
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GamePlayInfoPanel
+  - hash:
+      serializedVersion: 2
       Hash: afe1800287c9574079eab3fea2622416
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
@@ -1065,20 +1077,8 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: BaseGamePlay
-  - hash:
-      serializedVersion: 2
-      Hash: 27b5b0cc4c95d77cfe69209dcf564a96
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: GamePlayManager
-  - hash:
-      serializedVersion: 2
-      Hash: 67e9ef19f49ad2c53a6337e43359d176
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: GamePlayInfoPanel
   platform: 13
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/GamePlay.unity
-  playerPath: C:/Users/ashku/RockPaperScissors/Builds/RockPaperScissor2.apk
+  playerPath: C:/Users/ashku/RockPaperScissors/Builds/RockPaperScissor4.apk

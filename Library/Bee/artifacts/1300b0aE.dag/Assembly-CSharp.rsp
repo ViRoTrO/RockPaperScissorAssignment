@@ -359,9 +359,11 @@
 "Assets/Scripts/GameEnumes.cs"
 "Assets/Scripts/GamePlay/BaseGamePlay.cs"
 "Assets/Scripts/GamePlay/CountDownTimer.cs"
+"Assets/Scripts/GamePlay/GamePlayInfoPanel.cs"
 "Assets/Scripts/GamePlay/GamePlayManager.cs"
 "Assets/Scripts/GamePlay/GamePlayService.cs"
-"Assets/Scripts/GamePlay/Hand.cs"
+"Assets/Scripts/GamePlay/HandView.cs"
+"Assets/Scripts/Logger.cs"
 "Assets/Scripts/Main.cs"
 "Assets/Scripts/SriptableObjects/GameDataSO.cs"
 -langversion:9.0
